@@ -1,21 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
     <title>CineApp - Mobile</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <!-- PWA -->
+
+    <link rel="manifest" href="manifest.json">
+
+    <meta name="theme-color" content="#e50914">
+
+    <meta name="apple-mobile-web-app-capable"
+          content="yes">
+
+    <meta name="apple-mobile-web-app-status-bar-style"
+          content="black">
+
+    <meta name="apple-mobile-web-app-title"
+          content="CineApp">
+
+    <link rel="apple-touch-icon"
+          href="icons/icon-192.png">
+
+    <!-- SEO -->
+
+    <meta name="description"
+          content="Aplicativo de catálogo de filmes em alta.">
+
 </head>
+
 <body>
+
     <header>
         <h1>CineApp</h1>
         <p>Filmes em Alta</p>
     </header>
 
     <main id="movie-grid" class="container">
-        <div class="loading">Carregando filmes...</div>
+
+        <div class="loading">
+            Carregando filmes...
+        </div>
+
     </main>
 
     <script src="script.js"></script>
+
 </body>
+
 </html>
